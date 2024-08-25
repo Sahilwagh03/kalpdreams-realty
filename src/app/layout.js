@@ -1,5 +1,10 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Navbar";
+import Link from "next/link";
+import { FaWhatsapp } from "react-icons/fa";
+import Footer from "./components/Footer";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +16,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Navbar />
+        {children}
+        <Link
+          href="https://wa.me/919205704784"
+          className="fixed bottom-4 left-4 bg-green-500 text-white rounded-full p-3 shadow-lg flex items-center justify-center z-50"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaWhatsapp  className="fab fa-whatsapp text-2xl"></FaWhatsapp >
+        </Link>
+        <Footer/>
+      </body>
     </html>
   );
 }
