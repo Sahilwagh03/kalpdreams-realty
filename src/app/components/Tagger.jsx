@@ -4,9 +4,9 @@ import Image from 'next/image';
 
 // Array of image URLs for demonstration
 const images = [
-    {src : '/assets/catalog_1.jpg', name:'Location'},
-    {src:'/assets/price.jpg' , name:'Price'},
-    {src : '/assets/catalog_2.jpg', name:'Map'},
+    { src: '/assets/catalog_1.jpg', name: 'Location' },
+    { src: '/assets/price.jpg', name: 'Price' },
+    { src: '/assets/catalog_2.jpg', name: 'Map' },
 ];
 
 const Tagger = () => {
@@ -22,8 +22,8 @@ const Tagger = () => {
 
     return (
         <div className='py-10 px-10 text-center'>
-            <div className="grid grid-cols-3 gap-4">
-                {images.map(({src , name}, index) => (
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {images.map(({ src, name }, index) => (
                     <div className='relative'>
                         <div key={index} className="relative w-full cursor-pointer">
                             <Image
