@@ -4,12 +4,9 @@ import Image from 'next/image';
 
 // Array of image URLs for demonstration
 const images = [
-    'https://harithomesresidentialplots.com/img/1.jpg',
-    'https://harithomesresidentialplots.com/img/2.jpg',
-    'https://harithomesresidentialplots.com/img/3.jpg',
-    'https://harithomesresidentialplots.com/img/6.jpg',
-    'https://harithomesresidentialplots.com/img/5.jpg',
-    'https://harithomesresidentialplots.com/img/6.jpg',
+    '/assets/sitpic_1.png',
+    '/assets/sitpic_2.png',
+    '/assets/sitpic_3.png'
 ];
 
 const SitePic = () => {

@@ -4,9 +4,9 @@ import Image from 'next/image';
 
 // Array of image URLs for demonstration
 const images = [
-    'https://harithomesresidentialplots.com/img/plot1.jpg',
-    'https://harithomesresidentialplots.com/img/plot2.jpg',
-
+    '/assets/100sqfit.png',
+    '/assets/200sqfit.png',
+    '/assets/300sqfit.png'
 ];
 
 const PlotSize = () => {
@@ -24,9 +24,9 @@ const PlotSize = () => {
         <div className='py-16 px-10 text-center'>
             <h3 className='text-4xl font-bold text-[#966b34] mb-10 '>Jewar Airport Plots Size</h3>
             {/* Grid Layout */}
-            <div className="">
+            <div className="flex flex-row justify-center items-center ">
                 {images.map((image, index) => (
-                    <div key={index} className="relative w-full flex flex-col justify-center items-center cursor-pointer">
+                    <div key={index} className="relative w-full cursor-pointer">
                         <Image
                             src={image}
                             width={1000}
