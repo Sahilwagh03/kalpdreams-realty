@@ -10,7 +10,7 @@ const images = [
     '/assets/DeliveredP_4.jpeg',
 ];
 
-const DeliveredProjects = () => {
+const DeliveredProjects = ({title}) => {
     const [selectedImage, setSelectedImage] = useState(null);
 
     const openModal = (image) => {
@@ -23,9 +23,9 @@ const DeliveredProjects = () => {
 
     return (
         <div className='py-16 px-10 bg-green-100 text-center'>
-            <h3 className='text-4xl font-bold text-[#966b34] mb-10'>Delivered Projects</h3>
+            <h3 className='text-4xl font-bold text-[#966b34] mb-10'>{ title ||"Delivered Projects"}</h3>
             {/* Grid Layout */}
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {images.map((image, index) => (
                     <div key={index} className="relative w-full h-96 cursor-pointer overflow-hidden">
                         <Image

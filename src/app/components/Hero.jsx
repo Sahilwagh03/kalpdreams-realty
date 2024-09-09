@@ -14,7 +14,7 @@ const Hero = () => {
             </p>
             <div className='relative '>
                 <Image src='/assets/bg_below_hero.jpg' width={1000} height={1000} alt='Hero_img' className='w-full h-full' />
-                <div className='rounded-md absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white/80 px-6 py-10 text-center max-w-xl md:max-w-5xl w-full'>
+                <div className='hidden md:flex rounded-md absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white/80 px-6 py-10 text-center max-w-xl md:max-w-5xl w-full'>
                     <h3 className='text-2xl md:text-3xl font-bold text-[#966b34]'>
                         Why invest in the
                         <br />

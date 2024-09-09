@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import Button from './Button/Button'
 import { FaPhoneAlt } from "react-icons/fa";
+import NavItems from './NavItems';
 import Link from 'next/link';
 
 const Navbar = () => {
@@ -13,8 +14,9 @@ const Navbar = () => {
         <Image src='/assets/approved_2.jpg' width={100} height={100} alt='kalpdreams logo' className='w-20 h-auto' />
         <Image src='/assets/approved_3.jpg' width={100} height={100} alt='kalpdreams logo' className='w-20 h-auto' />
       </div>
-      <div>
+      <div className='flex flex-row gap-9 items-center'>
         <Image src='/assets/kalpdreams_logo.png' width={100} height={100} alt='kalpdreams logo' className='w-24 h-auto' />
+        <NavItems />
       </div>
       <nav className='flex flex-row items-center '>
         <Button className='bg-green-600 !text-white font-semibold !rounded-tr-none !rounded-br-none'>

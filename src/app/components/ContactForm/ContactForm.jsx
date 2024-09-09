@@ -4,7 +4,7 @@ import { Card, CardHeader, CardBody, CardFooter } from '../Card/CardComponets';
 import Input from '../Input/Input';
 import Button from '../Button/Button';
 
-const ContactForm = () => {
+const ContactForm = ({heading}) => {
     const [formState, setFormState] = useState({ name: '', email: '', phone: '', message: '' });
     const [errors, setErrors] = useState({});
 
@@ -45,7 +45,7 @@ const ContactForm = () => {
         <div className="flex items-center justify-center">
             <Card className="max-w-md min-w-[350px] w-full !bg-white">
                 <CardHeader className='!mb-4 flex items-start '>
-                    <h1 className="text-2xl font-bold text-black dark:text-white text-left ">Form</h1>
+                    <h1 className="text-2xl font-bold text-black dark:text-white text-left ">{heading ||"Form"}</h1>
                 </CardHeader>
                 <CardBody>
                     <div className="flex flex-col gap-4">
