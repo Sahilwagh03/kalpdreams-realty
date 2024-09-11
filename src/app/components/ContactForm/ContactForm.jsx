@@ -4,7 +4,7 @@ import { Card, CardHeader, CardBody, CardFooter } from '../Card/CardComponets';
 import Input from '../Input/Input';
 import Button from '../Button/Button';
 
-const ContactForm = ({heading}) => {
+const ContactForm = ({ heading }) => {
     const [formState, setFormState] = useState({ name: '', email: '', phone: '', message: '' });
     const [errors, setErrors] = useState({});
 
@@ -38,14 +38,17 @@ const ContactForm = ({heading}) => {
             setErrors({});
             // Handle form submission logic here
             console.log("Submitting form with:", formState);
+            // Reset the form after submission
+            setFormState({ name: '', email: '', phone: '', message: '' });
         }
+
     };
 
     return (
         <div className="flex items-center justify-center">
             <Card className="max-w-md min-w-[350px] w-full !bg-white">
                 <CardHeader className='!mb-4 flex items-start '>
-                    <h1 className="text-2xl font-bold text-black dark:text-white text-left ">{heading ||"Form"}</h1>
+                    <h1 className="text-2xl font-bold text-black dark:text-white text-left ">{heading || "Form"}</h1>
                 </CardHeader>
                 <CardBody>
                     <div className="flex flex-col gap-4">
@@ -58,7 +61,7 @@ const ContactForm = ({heading}) => {
                             onChange={handleInputChange}
                         />
                         {errors.name && <span className="text-red-500 text-sm">{errors.name}</span>}
-                        
+
                         <Input
                             type="email"
                             placeholder="Your Email"
@@ -68,7 +71,7 @@ const ContactForm = ({heading}) => {
                             onChange={handleInputChange}
                         />
                         {errors.email && <span className="text-red-500 text-sm">{errors.email}</span>}
-                        
+
                         <Input
                             type="tel"
                             placeholder="Your Phone Number"
@@ -78,7 +81,7 @@ const ContactForm = ({heading}) => {
                             onChange={handleInputChange}
                         />
                         {errors.phone && <span className="text-red-500 text-sm">{errors.phone}</span>}
-                        
+
                         <textarea
                             placeholder="Your Message"
                             className='!bg-transparent !dark:bg-transparent rounded-md h-28 resize-none p-3 border-2 '
