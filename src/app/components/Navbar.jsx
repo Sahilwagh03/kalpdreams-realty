@@ -35,9 +35,7 @@ const Navbar = () => {
         <div className='flex flex-row items-center'>
           <Button className='bg-green-600 !text-white font-semibold'>
             <Link
-              href="https://wa.me/9711545956"
-              target="_blank"
-              rel="noopener noreferrer">
+              href="/contact">
               Booking Online
             </Link>
           </Button>
@@ -45,9 +43,8 @@ const Navbar = () => {
         <div className='hidden md:flex flex-row items-center'>
           <Button className='bg-green-600 !text-white font-semibold'>
             <Link
-              href="https://wa.me/9711545956"
-              target="_blank"
-              rel="noopener noreferrer">
+              href="/assets/CATALOGU.pdf"
+              download>
               Download Catalogue
             </Link>
           </Button>

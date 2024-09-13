@@ -1,13 +1,16 @@
 import Image from 'next/image'
 import React from 'react'
 import ContactForm from './ContactForm/ContactForm'
+import Button from './Button/Button'
 
 const Hero = () => {
     return (
         <section className='relative'>
-            <Image src='/assets/Hero_img.jpg' width={1000} height={1000} alt='Hero_img' className='w-full h-full' />
-            <div className='absolute top-10 right-5'>
-                <ContactForm />
+            <div className='md:min-h-[500px] lg:min-h-full'>
+                <Image src='/assets/Hero_img.jpg' width={1000} height={1000} alt='Hero_img' className='w-full h-full' />
+                <div className='absolute top-10 right-3 md:right-5'>
+                    <ContactForm />
+                </div>
             </div>
             <p className='py-8 px-20 text-center'>
                 Experience housing comfort, affordability and connectivity with property near Jewar Airport, one of the prime property locations in India: The Yamuna Expressway. The Yamuna Expressway is one of the most desirable and highly sought-after property locations in India due to its proximity to important landmarks surrounding it.
@@ -18,13 +21,17 @@ const Hero = () => {
                     <h3 className='text-2xl md:text-3xl font-bold text-[#966b34]'>
                         Why invest in the
                         <br />
-                        Jewar Airport Residential Plots through the Yamuna Expressway 
-                        <br/>
+                        Jewar Airport Residential Plots through the Yamuna Expressway
+                        <br />
                         Plots Scheme?
                     </h3>
                 </div>
             </div>
 
+            <div className='absolute top-28 right-80 hidden lg:flex flex-col items-center justify-center'>
+                <Image src='/assets/location.png' alt='location' width={1000} height={1000} className='w-64 h-auto' />
+                <Button className='bg-green-600 text-white'>View More</Button>
+            </div>
         </section>
     )
 }
