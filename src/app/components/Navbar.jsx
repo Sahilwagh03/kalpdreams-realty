@@ -16,22 +16,22 @@ const Navbar = () => {
   return (
     <div className='flex flex-row justify-between items-center px-4 md:px-10'>
       {/* Logo section for larger screens */}
-      <div className='hidden md:flex flex-row gap-5 items-center'>
+      <div className='hidden lg:flex flex-row gap-5 items-center'>
         <Image src='/assets/approved_1.jpg' width={100} height={100} alt='kalpdreams logo' className='w-20 h-auto' />
         <Image src='/assets/approved_2.jpg' width={100} height={100} alt='kalpdreams logo' className='w-20 h-auto' />
         <Image src='/assets/approved_3.jpg' width={100} height={100} alt='kalpdreams logo' className='w-20 h-auto' />
       </div>
 
       {/* Main logo and nav items */}
-      <div className='flex flex-row gap-9 items-center'>
+      <div className=' contents md:flex flex-row gap-9 items-center w-full lg:w-fit'>
         <Image src='/assets/kalpdreams_logo.png' width={100} height={100} alt='kalpdreams logo' className='w-24 h-auto' />
-        <div className='hidden md:flex'>
+        <div className='hidden md:flex w-full'>
           <NavItems />
         </div>
       </div>
 
       {/* Contact and Phone Icon */}
-      <nav className='flex flex-row items-center gap-2'>
+      <nav className='flex flex-row items-center gap-2 text-xs mr-2 md:mr-0'>
         <div className='flex flex-row items-center'>
           <Button className='bg-green-600 !text-white font-semibold'>
             <Link
@@ -40,7 +40,7 @@ const Navbar = () => {
             </Link>
           </Button>
         </div>
-        <div className='hidden md:flex flex-row items-center'>
+        <div className='flex flex-row items-center'>
           <Button className='bg-green-600 !text-white font-semibold'>
             <Link
               href="https://drive.google.com/file/d/1Myt0d-zwqPQomUk4N2pKe1ISvmfbSaoh/view?usp=sharing"

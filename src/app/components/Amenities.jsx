@@ -6,7 +6,7 @@ const Amenities = () => {
         <section className='py-8 px-4 md:px-8 bg-white text-center'>
             <h3 className='text-4xl font-bold text-[#966b34] mb-4'>World-Class Amenities</h3>
             <p className='text-xl text-gray-700 mb-6'>
-                The Kalpdreams Realty Plots Scheme offers modern amenities like:
+                The Kalpdreams RealityPlots Scheme offers modern amenities like:
             </p>
             <div className='relative'>
                 <Image 
