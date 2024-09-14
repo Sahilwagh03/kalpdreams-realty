@@ -43,8 +43,8 @@ const Navbar = () => {
         <div className='hidden md:flex flex-row items-center'>
           <Button className='bg-green-600 !text-white font-semibold'>
             <Link
-              href="/assets/CATALOGU.pdf"
-              download>
+              href="https://drive.google.com/file/d/1Myt0d-zwqPQomUk4N2pKe1ISvmfbSaoh/view?usp=sharing"
+              target='_blank'>
               Download Catalogue
             </Link>
           </Button>

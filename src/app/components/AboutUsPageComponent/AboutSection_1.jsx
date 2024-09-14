@@ -3,7 +3,7 @@ import React from 'react';
 
 function AboutUsSection_1() {
   return (
-    <div className="relative w-full text-white" >
+    <div className="relative w-full text-white lg:mt-10" >
       <Image src="/assets/meeting-banner.jpg" width={1000} height={1000} alt='meet'/>
       <div className="relative md:absolute justify-center h-full flex right-0 top-0 p-4 bg-black/50 w-fit md:w-[600px] flex-col md:flex-col gap-8">
         <div>
