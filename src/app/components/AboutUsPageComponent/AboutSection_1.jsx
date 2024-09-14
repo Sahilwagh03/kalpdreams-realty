@@ -20,7 +20,7 @@ function AboutUsSection_1() {
           <p>
             Our mission is to provide our clients with premium properties that offer unmatched
             value and quality. We strive to exceed expectations through meticulous planning,
-            state-of-the-art infrastructure, and a customer-centric approach. At JD infratech, we
+            state-of-the-art infrastructure, and a customer-centric approach. At kalpdreams realty, we
             believe in building lasting relationships based on trust, transparency, and integrity.
           </p>
         </div>

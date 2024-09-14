@@ -59,11 +59,11 @@ const ProjectCarousel = () => {
                 {/* Description Section */}
                 <div className="flex flex-col justify-center px-4">
                     <h2 className="text-3xl font-bold mb-4">Description</h2>
-                    <p>KALPDREAMS RealityPVT. LTD. working in real estate since 2019.
+                    <p>KALPDREAMS realty PVT. LTD. working in real estate since 2019.
                         Our developer project is Near Lal Kuan ghaziabad the name of the
                         colony is Mansarovar park in which we have delivered more than
                         1500+ independent houses and plot also
-                        KALPDREAMS RealityPVT. LTD. stands as a beacon of excellence in
+                        KALPDREAMS realty PVT. LTD. stands as a beacon of excellence in
                         the real estate sector. Our foundation is built on the principles of
                         trust, transparency, and innovation. With years of expertise and a
                         team of dedicated professionals, we pride ourselves on creating

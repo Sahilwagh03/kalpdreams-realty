@@ -35,7 +35,7 @@ function Testimonials() {
                         />
                     </div>
                     <p className="text-gray-700 text-center mb-4 flex-grow">
-                        Kalp Dreams RealityPvt Ltd provides excellent services and is the best in terms of consultant services. I highly recommend getting services from Kalp Dreams RealityPvt Ltd.
+                        Kalp Dreams realty Pvt Ltd provides excellent services and is the best in terms of consultant services. I highly recommend getting services from Kalp Dreams realty Pvt Ltd.
                     </p>
                     <h3 className="text-gray-900 font-semibold text-center">Rohit Gupta</h3>
                 </div>

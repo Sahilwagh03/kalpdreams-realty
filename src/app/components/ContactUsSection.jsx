@@ -16,7 +16,7 @@ function ContactSection() {
       <div className="flex flex-col items-center min-h-[175px] border border-gray-400 p-6 rounded-lg w-full max-w-xs md:max-w-sm lg:max-w-md cursor-pointer">
         <FaEnvelope className="text-green-600 text-3xl mb-4" />
         <p className="text-gray-700 font-bold text-xl md:text-2xl mb-2 text-center">Send an Email</p>
-        <p className="text-gray-500 text-center">kalpdreamsrealitypvt@gmail.com</p>
+        <p className="text-gray-500 text-center">Kalpdreamsrealtypvtltd@gmail.com</p>
       </div>
 
       {/* Card 3 */}

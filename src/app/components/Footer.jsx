@@ -27,7 +27,7 @@ function Footer() {
             </ul>
           </div>
           
-          {/* Useful Links Section */}
+          {/* Useful Links Section
           <div className="flex-1 md:w-1/4">
             <h3 className="text-2xl font-bold mb-4">Useful Links</h3>
             <ul className="text-sm space-y-2">
@@ -35,7 +35,7 @@ function Footer() {
               <li><a href="/terms-and-conditions" className="hover:underline">Terms & Conditions</a></li>
               <li><a href="/disclaimer" className="hover:underline">Disclaimer</a></li>
             </ul>
-          </div>
+          </div> */}
           
           {/* Contact Us Section */}
           <div className="flex-1 md:w-1/4">

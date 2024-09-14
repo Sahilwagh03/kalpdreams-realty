@@ -8,7 +8,7 @@ function WhyChooseUs() {
         <div className="mb-6">
           <p>
             <span className="font-semibold">Customer Focus: </span>
-            At JD Infratech, our clients are at the heart of everything we do. We provide personalized services and support throughout the entire buying process and beyond.
+            At kalpdreams realty, our clients are at the heart of everything we do. We provide personalized services and support throughout the entire buying process and beyond.
           </p>
         </div>
         <div className="mb-6">
