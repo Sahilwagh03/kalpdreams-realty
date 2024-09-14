@@ -31,7 +31,7 @@ const Navbar = () => {
       </div>
 
       {/* Contact and Phone Icon */}
-      <nav className='flex flex-row items-center gap-2 text-xs mr-2 md:mr-0'>
+      <nav className='flex flex-row items-center gap-2 text-xs md:text-lg mr-2 md:mr-0'>
         <div className='flex flex-row items-center'>
           <Button className='bg-green-600 !text-white font-semibold'>
             <Link
