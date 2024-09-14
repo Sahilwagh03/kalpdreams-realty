@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import ContactForm from './ContactForm/ContactForm'
 import Button from './Button/Button'
+import Link from 'next/link'
 
 const Hero = () => {
     return (
@@ -30,7 +31,9 @@ const Hero = () => {
 
             <div className='absolute top-28 right-80 hidden lg:flex flex-col items-center justify-center'>
                 <Image src='/assets/location.png' alt='location' width={1000} height={1000} className='w-64 h-auto' />
-                <Button className='bg-green-600 text-white'>View More</Button>
+                <Link target='_blank' href='https://www.google.com/maps?q=28.5825884,77.3143798'>
+                    <Button className='bg-green-600 text-white'>View More</Button>
+                </Link>
             </div>
         </section>
     )
