@@ -16,7 +16,7 @@ const amenities = [
     {
         id: 3,
         title: 'Water Supply',
-        imageUrl: '/assets/water', // Fixed image path
+        imageUrl: '/assets/water.jpg', // Fixed image path
     },
     {
         id: 4,
